@@ -68,6 +68,9 @@
               opacity: 0.9;
               
             }
+            .feature{
+              background: lightgray ;
+            }
             .feature-1 {
               display: grid;
               grid-template-columns: 1fr 1fr;
@@ -106,13 +109,13 @@
         <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT</a>
+        <a class="nav-link" href="#about">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">SERVICES</a>
+        <a class="nav-link " href="#service">SERVICES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">BLOG</a>
+        <a class="nav-link " href="#feature">BLOG</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="#">CONTACT</a>
@@ -129,7 +132,7 @@
 
 <div id="hero" class="hero route bg-image" style="background-image: url(img/original.jpg);">
     <div class="hero1"></div>
-    <div class="information">
+    <div class="information"  id="about">
             <h1 >จองคลินิก</h1>
             <p>
                 เว็บไชต์ที่เป็นตัวช่วยในการบริหารงานเกี่ยวกับคลินิกแบบครบวงจร 
@@ -139,9 +142,9 @@
         </div>
   </div>
   
-  <div class="register">
+  <div class="register" id="service">
       <h1>จองคลินิก</h1>
-      <p>
+      <p >
         ได้เริ่มพัฒนามาตั้งแต่ปี 2560 เป็นต้นมาซึ่งเป็นระบบการจัดการในคลินิก คือ Jong clinic website management 
         และได้ทำการพัฒนาควบคู่ไปกับ Jong clinic application สำหรับผู้ใช้บริการของคลินิก 
         ได้เข้ามาจอง โปรโมชั่น หรือ บริการ ของคลินิก ได้้ง่ายขึ้น
@@ -153,7 +156,7 @@
 
 
 
-  <div class="feature">
+  <div class="feature" id="feature">
       <h1>ฟีเจอร์</h1>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
