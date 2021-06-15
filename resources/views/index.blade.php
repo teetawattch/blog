@@ -36,7 +36,7 @@
             }
             .register {
               margin: 150px 0 15px 375px ;
-              padding: 0 0 15% 0 ;
+              padding: 15% 0 15% 0 ;
               
             }
             .register h1{
@@ -70,6 +70,7 @@
             }
             .feature{
               background: lightgray ;
+              padding: 15% 0 15% 0 ;
             }
             .feature-1 {
               display: grid;
@@ -78,7 +79,7 @@
               align-content: center;
               grid-template-rows: 100px 100px;
               margin: 0 0 10% 23%;
-              padding: 5%;
+              
             }
             .feature-1 p {
               width: 100%;
